@@ -1,9 +1,9 @@
-# Magento2-Knockout-JS-Simple-Module
-Magento2-Knockout-JS-Simple-Module
+
+# Functionality:
 
 This module allow us to add/remove seat reservation and calculate total charge dynamically using Knockout JS.
 
-Enable Module:
+# Install
 
 Copy Knockout module and put it in : app/code/Thienphucvx/Knockout
 
@@ -13,15 +13,9 @@ php bin/magento module:enable Thienphucvx_Knockout
 
 php bin/magento setup:upgrade
 
+# Demo
+Access demo url : http://your_locahost/knockout/index/view
 
+# Screenshot
 
-Access demo url : your_locahost/knockout/index/view
-
-Screenshot
-
-
-
-
-
-
-
+![Demo Knockut js in Magento2](https://github.com/thienphucvx/Magento2-Knockout-JS-Simple-Module/blob/master/Knockout/demo/Knockout_js_demo.png)
