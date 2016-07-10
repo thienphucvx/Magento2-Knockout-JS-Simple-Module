@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<page layout='1column' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd" >
+    <head>
+        <title>
+            Knock Out Testing
+        </title>
+    </head>
+
+    <body>
+
+        <referenceContainer name="content">
+
+            <block class="Thienphucvx\Knockout\Block\ViewAbstract" before="-" cacheable="false" template="Thienphucvx_Knockout::grid.phtml">
+
+                <arguments>
+
+                    <argument name="jsLayout" xsi:type="array">
+
+                        <item name="components" xsi:type="array">
+
+                            <item name="sample-grid" xsi:type="array">
+
+                                <item name="component" xsi:type="string">Thienphucvx_Knockout/js/view/grid</item>
+
+                            </item>
+
+                        </item>
+
+                    </argument>
+
+                </arguments>
+
+            </block>
+
+        </referenceContainer>
+
+    </body>
+
+</page>
