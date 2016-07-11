@@ -1,7 +1,7 @@
 
 # Functionality:
 
-This module allow us to add/remove seat reservation and calculate total charge dynamically using Knockout JS.
+This module allows us to add/remove seat reservation and calculate total charge dynamically using Knockout JS.
 
 # Install
 
